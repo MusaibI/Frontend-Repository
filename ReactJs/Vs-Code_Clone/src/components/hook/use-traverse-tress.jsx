@@ -1,4 +1,4 @@
-const useTraverseTreee = () => {
+const useTraverseTree = () => {
 
     function insertNode(tree, folderId, item, isFolder) {
         if (tree.id == folderId && tree.isFolder) {
@@ -21,4 +21,4 @@ const useTraverseTreee = () => {
     return { insertNode }
 }
 
-export default useTraverseTreee;
+export default useTraverseTree;

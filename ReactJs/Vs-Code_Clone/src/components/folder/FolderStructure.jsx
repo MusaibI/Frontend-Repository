@@ -14,10 +14,10 @@ const FolderStructure = ({ explorer, handleInsertNode }) => {
 
     const addNewFolder = (e) => {
         if (e.keyCode === 13 && e.target.value) {
-            handleInsertNode(explorer.id, e.target.value, showInput.isFolder)
-            setShowInput({ ...showInput, isVisible: false })
+            handleInsertNode(explorer.id, e.target.value, showInput.isFolder);
+            setShowInput({ ...showInput, isVisible: false });
         }
-    }
+    };
 
     if (explorer.isFolder) {
         return (

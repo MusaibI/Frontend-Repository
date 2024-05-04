@@ -10,13 +10,13 @@ const explorer = {
             item: [
                 {
                     id: "3",
-                    name: "App.css",
+                    name: "Project",
                     isFolder: false,
                     item: [],
                 },
                 {
                     id: "4",
-                    name: "App.js",
+                    name: "ProjectFolder2",
                     isFolder: false,
                     item: [],
                 },
