@@ -1,0 +1,13 @@
+.folder {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: lightgray;
+  padding: 3px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.folder>span {
+  margin: 0 5px 2px 5px
+}
