@@ -115,8 +115,9 @@ This will run the app in the development mode. Open [http://localhost:3000](http
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used for custom styling and animations
 
 
-**JavaScript Project 1 **
-#Employee Management
+** Javascript Project 1 **
+
+# Eployee Management
 
 ## Overview
 The Employee Database Manager is a web-based application designed to manage a list of employees. It allows users to add new employees, view employee details, and delete employees from the list. The application is built using HTML, CSS, and JavaScript.
