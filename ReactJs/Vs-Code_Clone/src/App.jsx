@@ -13,7 +13,6 @@ function App() {
     const finalTree = insertNode(explorerData, folderId, item, isFolder);
     setExplorerData(finalTree);
   }
-
   return (
     <FolderStructure explorer={explorer} handleInsertNode={handleInsertNode} />
   )
