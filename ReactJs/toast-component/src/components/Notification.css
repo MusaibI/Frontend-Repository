@@ -1,0 +1,70 @@
+.notification {
+    padding: 15px;
+    margin: 10px 0; /* Space between notifications */
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+  }
+  
+  .success {
+    background-color: #4caf50;
+  }
+  .info {
+    background-color: #2196f3;
+  }
+  .warning {
+    background-color: #ff9800;
+  }
+  .error {
+    background-color: #f44336;
+  }
+  
+  .closeBtn {
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Positioning the notifications */
+  .top-right,
+  .bottom-right {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px; /* Ensure space between notifications */
+  }
+  
+  .top-left,
+  .bottom-left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px; /* Ensure space between notifications */
+  }
+  
+  .top-right {
+    top: 20px;
+    right: 20px;
+  }
+  
+  .top-left {
+    top: 20px;
+    left: 20px;
+  }
+  
+  .bottom-right {
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .bottom-left {
+    bottom: 20px;
+    left: 20px;
+  }
+  
